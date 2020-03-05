@@ -1,0 +1,2 @@
+# ms_bfs
+Multi source breadth first search is a graph traversal algorithm developed at the chair of database systems (https://db.in.tum.de/?lang=de) at the Technical University of Munich (TUM), where HyperDB and other amazing concepts and algorithms were developed. This repository shall re-evaluate the given metrics and results of the paper found here: https://db.in.tum.de/~kaufmann/papers/msbfs.pdf 
