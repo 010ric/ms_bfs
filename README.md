@@ -1,2 +1,14 @@
-# ms_bfs
-Multi source breadth first search is a graph traversal algorithm developed at the chair of database systems (https://db.in.tum.de/?lang=de) at the Technical University of Munich (TUM), where HyperDB and other amazing concepts and algorithms were developed. This repository shall re-evaluate the given metrics and results of the paper found here: https://db.in.tum.de/~kaufmann/papers/msbfs.pdf 
+# MultiSourceGraphTraversal
+
+Examining the research paper "The More the Merrier: Efficient Multi-Source Graph Traversal" by Prof.Neumann, Prof. Kemper, Moritz Kaufmann, Manuel Then et al. (Link: https://db.in.tum.de/~kaufmann/papers/msbfs.pdf).
+
+Optimize the runtime execution for multiple BFSs.
+
+# Data collection
+
+Trying to collect three different sources of data:
+a) social media data e.g. twitter, facebook, linked data benchmark coundcil social-network-benchmark: http://ldbcouncil.org/developer/snb
+        --> https://graphalytics.org/datasets
+b) road network data
+        --> http://networkrepository.com/road.php, using road-luxembours-osm.mtx and road-minnesota.mtx
+c) biology dataset

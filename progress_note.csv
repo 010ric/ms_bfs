@@ -1,0 +1,120 @@
+Date - Progress
+
+14.01.2020
+
+#############
+
+Time taken to build webgraph : 42009.8 milliseconds
+Time taken to run T_BFS computation : 1492.25 milliseconds
+ 64 T_BFS used - computation delivered - endresult : 20.3093
+Time taken to run MS_BFS computation : 35352.7 milliseconds
+ 1 MS_BFS used - computation delivered - endresult : 1296.9
+Test : #vertices 10000 and  #computation time in seconds : 35.3527
+
+#############
+
+
+
+#############
+
+Time taken to build webgraph : 5157.26 milliseconds
+Time taken to run 1500 T_BFS computation : 42573.6 milliseconds
+ T_BFS endresult : 1.49407e+07
+Time taken to run 1 MS_BFS computation with T_BFS set containing 1500 T_BFSs : 176.44 milliseconds
+ MS_BFS - endresult : 7.1535
+
+#############
+
+Time taken to build webgraph : 5177.81 milliseconds
+Time taken to run 5000 T_BFS computation : 178000 milliseconds
+ T_BFS endresult : 4.99372e+07
+Time taken to run 1 MS_BFS computation with T_BFS set containing 5000 T_BFSs : 951.214 milliseconds
+ MS_BFS - endresult : 18.1066
+
+#############
+Time taken to build webgraph : 4948.63 milliseconds
+Time taken to run 10000 T_BFS computation : 380393 milliseconds
+ T_BFS endresult : 9.99322e+07 needs to be divided by the number of vertices 10000 for the average closeness centrality of a node 
+
+#############
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+
+15.01.2020
+
+Time taken to build webgraph : 5073.2 milliseconds
+Time taken to run 10000 T_BFS computation : 3338.58 milliseconds
+ T_BFS endresult : 9.99322e+07 
+Time taken to run 1 MS_BFS computation with T_BFS set containing 5000 T_BFSs : 894.864 milliseconds
+ MS_BFS - endresult : 18.1084 divided by the number of vertices 10000 == 0.00181084
+
+################
+
+Time taken to build webgraph : 5320.04 milliseconds
+Time taken to run 1 MS_BFS computation with T_BFS set containing 64 T_BFSs : 125.401 milliseconds
+ MS_BFS - endresult : 4.86419 divided by the number of vertices 10000 == 0.000486419
+
+###############
+
+With ANP - ms_bfs:
+
+Time taken to build webgraph : 4841.83 milliseconds
+Time taken to run 1 MS_BFS computation with T_BFS set containing 10000 T_BFSs : 275.687 milliseconds
+ MS_BFS - endresult : 0.00010001 divided by the number of vertices 10000 == 1.0001e-08
+
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+
+16.01.2020
+
+Time taken to build webgraph : 5227.59 milliseconds
+Time taken to run 1 MS_BFS computation with T_BFS set containing 10000 T_BFSs : 550.811 milliseconds
+ MS_BFS - endresult : 0.315167
+
+-----> Time taken to build webgraph : 4912.86 milliseconds
+-----> Time taken to run 156 MS_BFS computation with T_BFS set containing 64 T_BFSs : 1008.49 milliseconds
+-----> MS_BFS - endresult : 0.30475
+
+---> Time taken to build webgraph : 4877.86 milliseconds
+---> Time taken to run 157 MS_BFS computation with T_BFS set containing 128 T_BFSs : 518.986 milliseconds
+---> MS_BFS - endresult : 0.0453429
+
+-> Time taken to build webgraph : 5364.61 milliseconds
+-> Time taken to run 10000 T_BFS computation : 2345.96 milliseconds
+-> T_BFS endresult : 9993.21 for the average closeness centrality of a node 
+-> Time taken to run 157 MS_BFS computation with T_BFS set containing 64 T_BFSs : 1014.27 milliseconds
+-> MS_BFS - endresult : 0.30475
+
+###############
+
+Time taken to build webgraph : 6255.28 milliseconds
+Time taken to run 10000 T_BFS computation : 7270.79 milliseconds
+ T_BFS endresult : 0.0144595 for the average closeness centrality of a node 
+
+Time taken to run 157 MS_BFS computation with T_BFS set containing 64 T_BFSs : 1032.3 milliseconds
+ MS_BFS - endresult : 0.0152002
+
+Time taken to run the hole benchmark 497866 milliseconds
+
+###############
+
+20.01.2020
+
+Time taken to build webgraph : 421.092 milliseconds
+Time taken to run 10000 T_BFS computation : 99720.2 milliseconds
+ T_BFS endresult : 3078.15 for the average closeness centrality of a node 
+Time taken to run 157 MS_BFS computation with T_BFS set containing 64 T_BFSs : 1284.34 milliseconds
+ MS_BFS - endresult : 18.7951
+Time taken to run the hole benchmark 101450 milliseconds
+
+#################
+
+21.01.2020
+
+Time taken to run 10000 T_BFS computation : 99324.9 milliseconds
+ T_BFS endresult : 3078.15 for the average closeness centrality of a node 
+Time taken to run 157 MS_BFS computation with T_BFS set containing 64 T_BFSs : 265.166 milliseconds
+ MS_BFS - endresult : 18.7951
+Time taken to run the hole benchmark 101173 milliseconds
+
+
